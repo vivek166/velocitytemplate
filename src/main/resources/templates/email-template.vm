@@ -1,0 +1,248 @@
+<html>
+<head>
+    <title>EmailTemplate</title>
+    <style type="text/css">
+        .colorstrip{
+            height: 10px;
+            background-color: #FE740B;
+        }
+
+        .logospace{
+            height: 76px;
+        }
+        .title {
+            padding-top: 13px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+        .mailSnapshot {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .mailSnapshotHeading {
+            font-family: Arial, sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .mailSnapshotContent {
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            margin-top: -25px;
+        }
+        .colorblocktext{
+            height: 60px;
+            background-color: #FE740B;
+            font-family: sans-serif;
+        }
+        .footertext{
+            height: 150px;
+            background-color: #FE740B;
+            font-family: sans-serif;
+            text-align: center;
+            color: white;
+        }
+        .bottomstrip {
+            height: 10px;
+            background-color: #FE740B;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 800px;
+            resize:both;
+            overflow:auto;
+        }
+
+        th:first-child p {
+            color: white;
+            font-size: 20px;
+        }
+
+        .accountOverviewTable {
+            padding-bottom: 20px;
+        }
+        .profileViewTable {
+            padding-bottom: 40px;
+        }
+        .linkTitle {
+            padding-top: 25px;
+            margin-bottom: -8px;
+            font-family: sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .link {
+            font-size: 20px;
+            font-family: Arial;
+        }
+        td {
+            border: 1px solid #000000;
+            text-align: center;
+            padding: 8px;
+            color: gray;
+            font-size: 18px;
+        }
+
+        th {
+            border: 1px solid #000000;
+            text-align: center;
+            padding: 8px;
+            color: #1B2631;
+            font-size: 18px;
+        }
+
+        tr:nth-child(2) {
+            background-color: #dddddd;
+        }
+
+        tr:nth-child(6) {
+            background-color: #dddddd;
+        }
+
+        tr:nth-child(1) {
+            background-color: #FE740B;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div class="logospace">
+    <div class="colorstrip"></div>
+    <center><h1>Header goes here </h1></center>
+</div>
+<div class="colorblocktext">
+    <p class="title">La Empanadita Loca Account &nbsp;| &nbsp; November 1, 2017</p>
+</div>
+<div class="mailSnapshot">
+    <p class="mailSnapshotHeading">Monthly Snapshot</p>
+    <p class="mailSnapshotContent">How does your Table Tracker operations metrics match up?</p>
+</div>
+<div class="accountOverviewTable">
+    <table align="center">
+        <tr>
+            <th colspan="4"><p align="left">Account overview</p></th>
+        </tr>
+        <tr>
+            <th>Orders</th>
+            <th>Counts</th>
+            <th>Average Delivery Time</th>
+            <th>% Goal Met</th>
+        </tr>
+        <tr>
+            <td>All</td>
+            <td>100 orders - 100%</td>
+            <td>8:23 minutes</td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>To-Go</td>
+            <td>20 orders - 20%</td>
+            <td>22:03 minutes</td>
+            <td>50%</td>
+        </tr>
+        <tr>
+            <td>Dine-In</td>
+            <td>80 orders - 80%</td>
+            <td>7:58 minutes</td>
+            <td>92%</td>
+        </tr>
+        <tr>
+            <th colspan="4">Operational Insights</th>
+        </tr>
+        <tr>
+            <td>Business Hour</td>
+            <td>7:00 PM</td>
+            <td>22:03 minutes</td>
+            <td>800 orders</td>
+        </tr>
+        <tr>
+            <td>Slowest Hour</td>
+            <td>6:00 AM</td>
+            <td>7:58 minutes</td>
+            <td>2 orders</td>
+        </tr>
+        <tr>
+            <td>Longest Avg. Delivery Time</td>
+            <td>8:03 minutes</td>
+            <td>7:00 PM</td>
+            <td>800 orders</td>
+        </tr>
+        <tr>
+            <td>Shortest Avg. Delivery Time</td>
+            <td>4:58 minutes</td>
+            <td>6:00 AM</td>
+            <td>2 orders</td>
+        </tr>
+    </table>
+</div>
+<div class="profileViewTable">
+    <table align="center">
+        <tr>
+            <th colspan="4"><p align="left">Plano, TX</p></th>
+        </tr>
+        <tr>
+            <th>Orders</th>
+            <th>Counts</th>
+            <th>Average Delivery Time</th>
+            <th>% Goal Met</th>
+        </tr>
+        <tr>
+            <td>All</td>
+            <td>100 orders - 100%</td>
+            <td>8:23 minutes</td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>To-Go</td>
+            <td>20 orders - 20%</td>
+            <td>22:03 minutes</td>
+            <td>50%</td>
+        </tr>
+        <tr>
+            <td>Dine-In</td>
+            <td>80 orders - 80%</td>
+            <td>7:58 minutes</td>
+            <td>92%</td>
+        </tr>
+        <tr>
+            <th colspan="4">Operational Insights</th>
+        </tr>
+        <tr>
+            <td>Business Hour</td>
+            <td>7:00 PM</td>
+            <td>22:03 minutes</td>
+            <td>800 orders</td>
+        </tr>
+        <tr>
+            <td>Slowest Hour</td>
+            <td>6:00 AM</td>
+            <td>7:58 minutes</td>
+            <td>2 orders</td>
+        </tr>
+        <tr>
+            <td>Longest Avg. Delivery Time</td>
+            <td>28:03 minutes</td>
+            <td>7:00 PM</td>
+            <td>800 orders</td>
+        </tr>
+        <tr>
+            <td>Shortest Avg. Delivery Time</td>
+            <td>4:58 minutes</td>
+            <td>6:00 AM</td>
+            <td>2 orders</td>
+        </tr>
+    </table>
+</div>
+<div class="footertext">
+    <p class="linkTitle">Hungry for more?</p>
+    <p class="link">Drill into what's happening across your organization and <br> your customers experiences in <a href="http://www.lrsus.com">LRS Connect</a></p>
+</div>
+<div class="logospace">
+    <center><h1>Footer goes here </h1></center>
+    <div class="bottomstrip"></div>
+</div>
+</body>
+</html>
